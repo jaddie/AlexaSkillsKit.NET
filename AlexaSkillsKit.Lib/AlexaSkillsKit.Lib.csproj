@@ -33,12 +33,10 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="BouncyCastle.Crypto, Version=1.8.1.0, Culture=neutral, PublicKeyToken=0e99375e54769942">
-      <HintPath>..\packages\BouncyCastle.1.8.1\lib\BouncyCastle.Crypto.dll</HintPath>
-      <Private>True</Private>
+      <HintPath>..\..\packages\BouncyCastle.1.8.1\lib\BouncyCastle.Crypto.dll</HintPath>
     </Reference>
-    <Reference Include="Newtonsoft.Json, Version=7.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
-      <HintPath>..\packages\Newtonsoft.Json.7.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
-      <Private>True</Private>
+    <Reference Include="Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Newtonsoft.Json.9.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -63,6 +61,8 @@
     <Compile Include="Sdk.cs" />
     <Compile Include="Slu\Intent.cs" />
     <Compile Include="Slu\Slot.cs" />
+    <Compile Include="UI\AudioItem.cs" />
+    <Compile Include="UI\Directives.cs" />
     <Compile Include="Speechlet\IntentRequest.cs" />
     <Compile Include="Speechlet\ISpeechlet.cs" />
     <Compile Include="Speechlet\ISpeechletAsync.cs" />
@@ -76,6 +76,7 @@
     <Compile Include="Speechlet\SpeechletRequest.cs" />
     <Compile Include="Speechlet\SpeechletResponse.cs" />
     <Compile Include="Speechlet\Application.cs" />
+    <Compile Include="UI\Stream.cs" />
     <Compile Include="Speechlet\User.cs" />
     <Compile Include="UI\Image.cs" />
     <Compile Include="UI\StandardCard.cs" />
